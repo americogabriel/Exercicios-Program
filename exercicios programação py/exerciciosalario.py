@@ -1,8 +1,5 @@
-baseM = 100
-basem = 50
-altura = 50
+salario = float (input('qual o seu salario mensal?'))
+aumento = salario * 0.25
+novosalario = salario + aumento
 
-somabase = baseM + basem
-areatrapezio = (somabase/2)* altura
-
-print ('A área do trapezio descrito é de:',areatrapezio)
+print ('Após o aumento do salário, seu novo valor salarial será: R$',novosalario)
